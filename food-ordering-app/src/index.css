@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fdf6f0;
+  color: #2b2b2b;
+}
+
+.navbar {
+  background: #d62828;
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.navbar .navbar-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.cart-badge {
+  background: white;
+  color: #d62828;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 24px 0 12px;
+  border-bottom: 2px solid #d62828;
+  padding-bottom: 6px;
+}
+
+.food-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.food-item .food-name {
+  font-weight: 600;
+}
+
+.food-item .food-price {
+  color: #555;
+  margin-left: 8px;
+}
+
+.add-btn {
+  background: #2b9348;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-btn:hover {
+  background: #22753a;
+}
+
+.user-info-card {
+  background: white;
+  padding: 16px 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.user-info-card p {
+  margin: 6px 0;
+}
+
+.switcher {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px;
+  background: #2b2b2b;
+}
+
+.switcher button {
+  background: #444;
+  color: white;
+  border: 1px solid #666;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.switcher button.active {
+  background: #d62828;
+  border-color: #d62828;
+}
+
+.info-banner {
+  background: #fff3cd;
+  border: 1px solid #ffe69c;
+  padding: 10px 16px;
+  margin: 16px 24px 0;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.prop-drilling-note {
+  background: #ffe5e5;
+  border: 1px dashed #d62828;
+  padding: 8px 12px;
+  font-size: 12px;
+  margin-top: 6px;
+  border-radius: 6px;
+  color: #a51d1d;
+}
